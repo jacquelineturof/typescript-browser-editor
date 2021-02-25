@@ -48,6 +48,7 @@ const reducer = produce((
 
             return state
         case ActionType.INSERT_CELL_BEFORE:
+            console.log('insert')
             const cell: Cell = {
                 content: '',
                 type: action.payload.type,
