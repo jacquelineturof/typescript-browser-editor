@@ -4,3 +4,7 @@ export {
     moveCell,
     insertCellAfter
 } from './cells'
+
+export {
+    createBundle
+} from './bundles'
